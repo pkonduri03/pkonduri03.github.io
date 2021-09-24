@@ -174,14 +174,12 @@
 </div>
 
     <script type="module">
-  // Import the functions you need from the SDKs you need
+  // Import the functions from the SDKs
   import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js';
   import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore.js';
 
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
 
-  // Your web app's Firebase configuration
+  //  web app's Firebase configuration
   const firebaseConfig = initializeApp({
     apiKey: "AIzaSyCO--IxVwnbzZMNcRvRtI28ohJipFj3z30",
     authDomain: "portfolio-70ed8.firebaseapp.com",
@@ -255,8 +253,6 @@ const times5 = document.querySelector('#times5')
 const six = document.querySelector('.projectSix')
 const times6 = document.querySelector('#times6')
 
-
-// let timesClicked = 0
 
 one.addEventListener('dblclick', (e) => {
 
@@ -351,8 +347,6 @@ const createHeart1 = (e) => {
 
     one.appendChild(heart)
 
-    // times.innerHTML = ++timesClicked
-
     setTimeout(() => heart.remove(), 1000)
 }
 const createHeart2 = (e) => {
@@ -374,8 +368,6 @@ const createHeart2 = (e) => {
     heart.style.left = `155px`
 
     two.appendChild(heart)
-
-    // times.innerHTML = ++timesClicked
 
     setTimeout(() => heart.remove(), 1000)
 }
@@ -399,8 +391,6 @@ const createHeart3 = (e) => {
 
     three.appendChild(heart)
 
-    // times.innerHTML = ++timesClicked
-
     setTimeout(() => heart.remove(), 1000)
 }
 const createHeart4 = (e) => {
@@ -422,8 +412,6 @@ const createHeart4 = (e) => {
     heart.style.left = `155px`
 
     four.appendChild(heart)
-
-    // times.innerHTML = ++timesClicked
 
     setTimeout(() => heart.remove(), 1000)
 }
@@ -447,8 +435,6 @@ const createHeart5 = (e) => {
 
     five.appendChild(heart)
 
-    // times.innerHTML = ++timesClicked
-
     setTimeout(() => heart.remove(), 1000)
 }
 const createHeart6 = (e) => {
@@ -471,13 +457,10 @@ const createHeart6 = (e) => {
 
     six.appendChild(heart)
 
-    // times.innerHTML = ++timesClicked
-
     setTimeout(() => heart.remove(), 1000)
 }
 
 </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <!-- <script src="action.js" charset="utf-8"></script> -->
   </body>
 </html>
